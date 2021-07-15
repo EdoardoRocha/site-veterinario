@@ -88,7 +88,7 @@ nav a:hover {
 
 main {
     background-color: white;
-    padding: 10px;
+    padding: 20px;
     box-shadow: 1px 7px 7px rgba(0, 0, 0, 0.158);
     border-radius: 1px 1px 10px 10px;
     margin: auto;
@@ -120,6 +120,8 @@ img {
   width: 100%;
   display: block;
   margin: auto;
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
 
 .bg-color {
