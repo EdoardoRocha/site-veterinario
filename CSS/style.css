@@ -1,12 +1,21 @@
 @charset "UTF-8";
 
-@font-face {
-    font-family: 'Animal';
-    src: url(../Fontes/Black\ Animal.otf) format(opentype), url(../Fontes/Black\ Animal.ttf) format(truetype);
-    font-weight: normal
-}
+
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+
+
+
+
+@font-face {
+    font-family: 'Animal';
+    src: url('../Fontes/Animal\ House.otf');
+    
+}
+
+
 
 
 :root {
@@ -16,8 +25,8 @@
     --cor3:#a268ab;
     --cor4:#cf86da;
 
-    --font-titulo: 'Animal', cursive;
-    --font-destaque: 'Bebas Neue', cursive;
+    --font-titulo: Animal, cursive;
+    --font-destaque: Bebas Neue, cursive;
     --font-padrao: Arial, Helvetica, sans-serif;
     
 }
@@ -60,13 +69,15 @@ header > p {
 nav {
     background-color: var(--cor0);
     padding: 10px;
+    box-shadow: 1px 7px 7px rgba(0, 0, 0, 0.226);
    
 }
 nav a{
     color: white;
     text-decoration: none;
     font-weight: bold;
-    padding: 10px
+    padding: 10px;
+    
 }
 nav a:hover {
     color: var(--cor0);
@@ -87,7 +98,32 @@ main {
 }
 main h1 {
     font-family: var(--font-titulo);
+    font-size: 2em;
+    
 }
+ h2#sub-tit {
+     margin-top: 12px;
+    font-family: var(--font-titulo);
+    font-size: 2em;
+}
+h2#espaco {
+margin-top: 22px;
+}
+
 main p {
+    font-family: var(--font-padrao);
     text-align: justify;
+    line-height: 2.0em;
+    font-weight: normal;
+}
+img {
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+
+.bg-color {
+    background-image: linear-gradient(to right, var(--cor2), white);
+    padding: 1px;
+    border-radius: 3px;
 }
