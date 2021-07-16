@@ -175,6 +175,7 @@ aside {
 
 aside p {
     padding: 0px;
+    margin-bottom: 12px;
 }
 aside ul li {
     padding: 2px;
