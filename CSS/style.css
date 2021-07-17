@@ -234,11 +234,13 @@ footer p {
     font-family: var(--font-padrao);
     font-weight: normal;
     position: absolute;
+    z-index: 2;
     top: -100%;
     transition: 440ms;
     margin: auto;
     min-width: 210px;
     max-width: 600px;
+   
    
 
 }
@@ -252,7 +254,8 @@ footer p {
  text-align: center;
 }
 div > p {
-    line-height: 2.2em;
+  
+    line-height: 1.7em;
     margin-top: 12px;
 }
 
