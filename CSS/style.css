@@ -221,3 +221,37 @@ footer p {
     text-align: center;
     padding: 2px;
 }
+
+
+
+
+
+.modal {
+    background-color: gray;
+    padding: 12px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 9px rgba(0, 0, 0, 0.322);
+    font-family: var(--font-padrao);
+    font-weight: normal;
+    position: absolute;
+    top: -100%;
+    transition: 440ms;
+    margin: auto;
+    min-width: 210px;
+    max-width: 600px;
+   
+
+}
+ p#modal-f {
+     text-align: right;
+ }
+ div > h3#titulo {
+   background-color: rgba(255, 255, 0, 0.445);
+ border-radius: 10px;
+ padding: 2.4px;
+ text-align: center;
+}
+div > p {
+    line-height: 2.2em;
+    margin-top: 12px;
+}
