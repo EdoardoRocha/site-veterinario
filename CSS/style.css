@@ -85,12 +85,17 @@ nav {
     
   
 }
-nav a{
+nav a.menu{
     color: white;
     text-decoration: none;
     font-weight: bold;
     padding: 10px;
     
+}
+nav a#pxmodal {
+color: white;
+font-weight: bold;
+padding: 9px;
 }
 nav a:hover {
     color: var(--cor0);
