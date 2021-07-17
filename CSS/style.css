@@ -72,6 +72,11 @@ header > p {
     padding-left: 10px;
     margin: auto;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.295);
+    
+}
+
+.mar-larg {
+padding-bottom: 12px;
 }
 nav {
     background-color: var(--cor0);
@@ -85,7 +90,6 @@ nav a{
     text-decoration: none;
     font-weight: bold;
     padding: 10px;
-    
     
 }
 nav a:hover {
