@@ -97,6 +97,13 @@ color: white;
 font-weight: bold;
 padding: 9px;
 }
+nav a#pxmodal:hover {
+
+    color: var(--cor0);
+    background-color: var(--cor3);
+    border-radius: 5px;
+    transition: 320ms;
+}
 nav a:hover {
     color: var(--cor0);
     background-color: var(--cor3);
