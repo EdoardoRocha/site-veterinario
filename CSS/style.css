@@ -288,3 +288,45 @@ a#fechar-hover:hover {
     color: var(--cor4);
     
 }
+
+.modal-menu {
+    background-color: var(--cor4);
+    padding: 12px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 1px 5px 9px rgba(0, 0, 0, 0.301);
+    width: 30%;
+  min-width: 220px;
+  max-width: 660px;
+  position: fixed;
+  top: -100%;
+  transition: 550ms;
+}
+
+#p-modal {
+    border-bottom-style: inset;
+    font-family: var(--font-destaque);
+    font-size: 1.2em;
+    font-weight: bold;
+margin-bottom: 5px;
+text-align: center;
+
+}
+
+.link-menu {
+    border-bottom-style: inset;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    background-color: rgba(0, 247, 255, 0.466);
+    border-radius: 10px;
+    box-shadow: 1px 9px 9px rgba(0, 0, 0, 0.356);
+}
+.link-menu:hover {
+    border: 3px solid rgba(0, 247, 255, 0.466);
+    transition: 320ms;
+    background-color: aliceblue;
+}
+#menu-modal {
+    text-align: right;
+    
+}
