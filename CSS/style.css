@@ -297,7 +297,7 @@ a#fechar-hover:hover {
     width: 30%;
   min-width: 220px;
   max-width: 660px;
-  position: fixed;
+  position: absolute;
   top: -100%;
   transition: 550ms;
 }
