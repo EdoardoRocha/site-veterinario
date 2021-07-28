@@ -141,6 +141,7 @@ main p {
     text-align: justify;
     line-height: 2.0em;
     font-weight: normal;
+    text-indent: 22px;
 }
 img {
   width: 100%;
